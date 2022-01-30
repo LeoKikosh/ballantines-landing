@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-image: url(../images/bg.jpeg);
+  background-size: cover;
+  background-position: right center;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 240px;
+  padding-top: 46px;
+}
+
+.logo {
+  margin-right: 34px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li+li {
+  margin-left: 25px;
+}
+
+.menu a {
+  font-size: 24px;
+  line-height: 35.13px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.title {
+  font-size: 120px;
+  line-height: 140.63px;
+  margin-bottom: 15px;
+}
+
+.text {
+  max-width: 674px;
+  font-size: 36px;
+  line-height: 42.19px;
+  margin-bottom: 46px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.slick-dots li+li {
+  margin-left: 20px;
+}
+
+.slick-dots button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  background-color: #fff;
+}
+
+.slick-dots button:focus {
+  outline: 2px solid rgb(163, 118, 118);
+}
